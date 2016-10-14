@@ -7,7 +7,7 @@ title: Examples
 
 ## Getting information from a URI
 
-Appart from being able to get all the URI component string using their respective getter method. the URI object also exposed all component as object throught PHP's magic `__get` method. You can use this ability to get even more informations about the URI objects.
+Appart from being able to get all the URI component strings using their respective getter methods, the URI object also exposes all components as objects through PHP's magic `__get` method. You can use this ability to get even more information about the URI objects.
 
 ~~~php
 <?php
@@ -41,9 +41,9 @@ Each component exposes its own specific properties. Please refer to the document
 
 ## Using URI Modifiers
 
-The package comes bundle with [URI modifiers](/uri/manipulation/#uri-modifiers) which enable modifying any League URI object as well as any PSR-7 `UriInterface` objects in a simple and intuitive way.
+The package comes bundled with [URI modifiers](/uri/manipulation/#uri-modifiers) which enable modifying any League URI object as well as any PSR-7 `UriInterface` objects in a simple and intuitive way.
 
-Let's say you have a document that can be downloaded in different format (CSV, XML, JSON) and you quickly want to generate each format URI. This example illustrates how easy it is to generate theses different URIs from an original URI.
+Let's say you have a document that can be downloaded in different formats (CSV, XML, JSON) and you quickly want to generate a URI for each format. This example illustrates how easy it is to generate theses different URIs from an original URI.
 
 ~~~php
 <?php
